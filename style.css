@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Source+Serif+Pro:wght@300&display=swap');
+
+body{
+    background:linear-gradient(90deg,#132235,#285059,#468C8C,#71D9CE)  ;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    display: flex; 
+    flex-direction: row;
+    max-width: 100%;
+    margin-top: 100px;
+    
+}
+li{
+    display: inline-block;
+    margin: 25px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+a:hover{
+    color: #71D9CE;
+}
+h1{
+    line-height: 10px;
+
+}
+h2{
+    font-weight: 400 ;
+    font-size: 60px;
+    color:#71D9CE ;
+}
+p{
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 3px;
+
+}
+
+.imagem-main{
+    width: 600px;
+    height: 400px;
+    margin-left: 30px;
+    /* border: 5px ridge #71D9CE ; */
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+input{
+    margin-top: 20px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 20px ;
+    border: none;
+    font-size: 15px;
+}
+.Enviar{
+    height: 50px;
+    width: 50%;
+    background-color:#71D9CE ;
+    color: white;
+    font-weight: bold;
+}
+.Enviar:hover{
+    cursor: pointer;
+}
+    
+
+
+
+
+
+
+
+
+
+
+   
+
