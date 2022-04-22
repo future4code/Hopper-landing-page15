@@ -1,0 +1,72 @@
+@media screen and (min-width: 1280px){
+    .botao-fechar{
+        display: none;
+    }
+    .botao-menu{
+        display: none;
+    }
+    .menu{
+        width: auto;
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        background-color: rgba(240, 247, 249, 0.0);
+        position: static;
+    }
+    .menu li{
+        padding: 15px;
+        font-size: 1.5em;
+        display: inline-block;
+    }
+    .container-inicio img{
+        width: 100%;
+        height:700px ;
+    }
+    .cadastro{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        background: linear-gradient(to right,#132235,#285059,#468C8C);
+        border-radius: 20px;
+        width: 20%;
+        height: 30%;
+    }
+    .container-inicio h2{
+        color: white;
+    }
+    .Enviar{
+       background:#71D9CE ; 
+    }
+    .box-anuncio{
+        background-color: rgba(0,0,0,0.3);
+        border: 3px solid white;
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    } 
+    .imagem-lado1{
+        width: 50%;
+        height: 70%;
+    }
+    .imagem-lado1 img{
+       width: 100%;
+       height: 100%;
+     
+    }
+    .texto-lado2{
+        width: 50%;
+        height: 50%;
+    }
+    .texto-lado2 h3{
+        font-size: 2em;
+        text-align: center;
+    }
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+    }
+}
+
+
